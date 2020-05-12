@@ -41,3 +41,18 @@ pyenv activate lewagon 2>/dev/null && echo "🐍 Loading 'lewagon' virtualenv"
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+
+alias ll="ls -la"
+alias hs="history"
+alias ..='cd ../'
+alias ...='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../'
+alias edit='sublime'
+alias f='open -a Finder ./'
+alias ~='cd ~'
+alias cc='clear'
+alias qfind='find . -name '
+alias nb='nano ~/.bash_profile'
+alias sb='source ~/.bash_profile'
